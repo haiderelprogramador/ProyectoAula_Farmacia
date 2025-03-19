@@ -12,11 +12,11 @@ import java.util.Date;
 
 public class Reclamo {
     private int idReclamo;
-    private ordenMedica ordenMedica;
+    private OrdenMedica ordenMedica;
     private String estado;
     private Date fechaReclamo;
 
-    public Reclamo(int idReclamo, ordenMedica ordenMedica, String estado, Date fechaReclamo) {
+    public Reclamo(int idReclamo, OrdenMedica ordenMedica, String estado, Date fechaReclamo) {
         this.idReclamo = idReclamo;
         this.ordenMedica = ordenMedica;
         this.estado = estado;
@@ -32,7 +32,7 @@ public class Reclamo {
         return idReclamo;
     }
 
-    public ordenMedica getOrdenMedica() {
+    public OrdenMedica getOrdenMedica() {
         return ordenMedica;
     }
 

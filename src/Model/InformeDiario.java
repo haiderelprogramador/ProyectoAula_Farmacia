@@ -23,10 +23,9 @@ public class InformeDiario {
     }
 
     public void generarInforme() {
-        // Lógica para generar un informe diario
+       
     }
 
-    // Getters y Setters
     public int getIdInforme() {
         return idInforme;
     }
